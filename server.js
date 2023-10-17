@@ -1,9 +1,9 @@
 const express = require("express");
 const path = require("path")
-//const spooky = require("./info")
+const spooky = require("./info")
 
 const page = express();
-//const scary = spooky();
+
 
 page.set("view engine","ejs");
 page.set("views",path.join(__dirname,),"views")
